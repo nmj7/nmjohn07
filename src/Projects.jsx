@@ -36,7 +36,7 @@ export default function Projects() {
           </div>
 
           {/* Description */}
-          <ul className="list-disc list-inside space-y-2 text-teal-700 text-base">
+          <ul className="list-disc list-inside space-y-2 text-white text-base">
             {element.description.map((desc, i) => (
               <li key={i}>{desc}</li>
             ))}
