@@ -42,14 +42,14 @@ export default function Timeline({ defaultColor }) {
 
             {/* Content Box */}
             <div
-              className={`
-                relative w-full rounded-xl px-8 py-4 text-center font-Merriweather text-white
-                ${colorClasses[color] || "bg-gray-600/50 border-gray-600"}
-                shadow-[0_0_25px_rgba(0,0,0,0.3)]
-                hover:shadow-[0_0_35px_rgba(255,255,255,0.1)]
-                transition-all duration-500 backdrop-blur-[2px]
-                min-h-[220px] flex flex-col justify-between
-              `}
+  className={`
+    relative w-full rounded-xl px-8 py-4 text-center font-Merriweather text-white
+    ${colorClasses[color] || "bg-gray-600/50 border-gray-600"}
+    shadow-[0_0_25px_rgba(0,0,0,0.3)]
+    hover:shadow-[0_0_35px_rgba(255,255,255,0.1)]
+    transition-all duration-500 backdrop-blur-[2px]
+    min-h-[220px] flex flex-col justify-between
+  `}
             >
               <div className="font-bold text-xl text-white">{element.title}</div>
               <div>

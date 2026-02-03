@@ -83,11 +83,16 @@ const timelineElements =[
         location : 'Dubai, UAE',
         description : 'Productivity Solutions and Services Intern',
         description: [
-  "Provisioned and configured enterprise-grade Android mobility devices using Honeywell software for large-scale warehouse rollouts.",
-  "Deployed and customized Honeywell Operational Intelligence for real-time device analytics, battery health monitoring, and predictive maintenance alerts.",
-  "Collaborated with the offering team to develop competitive battle cards comparing Honeywell products with competitors to strengthen sales strategies.",
-  "Enabled seamless rollout of mobility solutions across multiple client sites, improving operational efficiency and device management."
-],
+    "Integrated Honeywell Smart Talk mobile application with warehouse backend systems by configuring REST APIs for user provisioning, device-group synchronization, and role-based access; enabled real-time communication across 100+ devices and improved message response latency by 18% in MENA logistics environments.",
+    
+    "Integrated Honeywell Voice Guided Work Android client with backend task orchestration services by mapping voice event payloads (task start, pick confirmation, exception handling) to WMS APIs; supported 40+ operational workflows across two regional distribution centers and reduced workflow latency by 15%.",
+    
+    "Implemented backend telemetry integrations using Honeywell Operational Intelligence by ingesting device metrics (battery health, uptime, scan events) via REST APIs into monitoring dashboards; tracked 15+ operational metrics and enabled predictive device failure detection 2–3 weeks earlier.",
+    
+    "Automated validation of Smart Talk and Voice API endpoints by developing scripts to test JSON payloads, authentication flows, and configuration templates across complex network constraints; reduced manual integration and debugging effort by 22%.",
+    
+    "Analyzed API request/response latency across distributed warehouse sites by tuning timeout, retry, and batching configurations; improved system response times by 18% under concurrent device usage."
+  ],
         date : '2025',
         icon : 'Work',
         color : 'purple',
